@@ -130,18 +130,37 @@ red{
     color:red;
 }
 @media (max-width: 600px) {
-    #tarefas, #notif{
-        min-width: 0px;
-        width: 350px;
+    #page_content{
+        padding: 40px 0px 0px 0px;
+        align-items: center;
     }
+    #tarefas, #notif{
+        min-width: 250px;
+        
+      
+    }
+    .task{
+        width: 250px;
+    }
+
     #tarefas div p{
         margin: 0;
-        font-size: 12px;
+        font-size: 9px;
     }
     #tarefas div h3{
         margin: 0;
         font-weight: 600;
+        font-size: 12px;
+    }
+   
+    #notif div h3{
         font-size: 14px;
+    }
+    #notif div p{
+        font-size: 12px;
+    }
+    #logb,#regb{
+        font-size: 10px;
     }
   }
   
