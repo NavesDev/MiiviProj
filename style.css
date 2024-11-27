@@ -627,3 +627,29 @@ red{
     };
   }
   
+  footer{
+    background-color: var(--primcolor);  
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  footer div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer div h1{
+    font-size: 15px;
+  }
+  footer div h2{
+    font-size: 17px;
+  }
+  #page_content footer div p{
+    font-size: 14px;
+    color: white;
+  }
+  footer a{
+    color: white;
+  }
